@@ -1,0 +1,5 @@
+-   id: buildifier-docker
+    name: Format BUILD/WORKSPACE/.bzl (via Docker)
+    entry: buildifier
+    language: docker
+    files: "^BUILD$|^WORKSPACE$|.bzl$"
